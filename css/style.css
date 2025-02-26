@@ -440,11 +440,11 @@ header::before {
 }
 
 .bar .progress-line.css span {
-    width: 60%;
+    width: 80%;
 }
 
 .bar .progress-line.tc span {
-    width: 60%;
+    width: 80%;
 }
 
 .bar .progress-line.bs span {
@@ -478,11 +478,20 @@ header::before {
 .bar .progress-line.mysql span {
     width: 90%;
 }
+.bar .progress-line.php span {
+    width: 70%;
+}
 .bar .progress-line.git span {
     width: 90%;
 }
 .bar .progress-line.github span {
     width: 90%;
+}
+.bar .progress-line.figma span {
+    width: 50%;
+}
+.bar .progress-line.photoshop span {
+    width: 50%;
 }
 
 .progress-line span::before {
@@ -526,13 +535,13 @@ header::before {
 }
 
 .progress-line.css span::after {
-    content: "60%";
+    content: "90%";
 }
 .progress-line.tc span::after {
-    content: "60%";
+    content: "80%";
 }
 .progress-line.bs span::after {
-    content: "70%";
+    content: "80%";
 }
 .progress-line.js span::after {
     content: "80%";
@@ -561,11 +570,20 @@ header::before {
 .progress-line.mysql span::after {
     content: "90%";
 }
+.progress-line.php span::after {
+    content: "70%";
+}
 .progress-line.git span::after {
     content: "90%";
 }
 .progress-line.github span::after {
     content: "90%";
+}
+.progress-line.figma span::after {
+    content: "50%";
+}
+.progress-line.photoshop span::after {
+    content: "50%";
 }
 
 

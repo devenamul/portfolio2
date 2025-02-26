@@ -1,6 +1,6 @@
 // Typing Script JS
 var typed = new Typed(".typing",{
-    strings: ["Web Designer", "Web Developer", "MERN Stack", "Computer Science and Engineer"],
+    strings: ["Web Designer", "Web Developer", "MERN Stack", "B.sc in Computer Science and Engineer"],
     typeSpeed: 80,
     backSpeed: 80,
 });
